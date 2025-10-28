@@ -1,0 +1,254 @@
+/* 
+********************************************************************************
+*                                                                              *
+*    Style Definitions for Visma Product Documentation                         *
+*                                                                              *
+********************************************************************************
+
+UPDATE HISTORY 
+--------------------------------------------------------------------------------
+2006-09-19, Jostein Øyri 
+* Removed negative margins for heading styles. 
+* Removed styles: 
+	- p.tabelloverskriftsql, li.tabelloverskriftsql, div.tabelloverskriftsql
+	- p.sqltabellnavn, li.sqltabellnavn, div.sqltabellnavn
+	- p.heading 3 i tabell, li.heading 3 i tabell, div.heading 3 i tabell
+	- p.sql-navn, li.sql-navn, div.sql-navn
+	- p.kapitteloverskrift, li.kapitteloverskrift, div.kapitteloverskrift
+	- p.punktnummitabell, li.punktnummitabell, div.punktnummitabell
+	- p.punktnummerering, li.punktnummerering, div.punktnummerering
+	- p.punktinnrykk, li.punktinnrykk, div.punktinnrykk
+	- p.Nummerering, li.nummerering, div.nummerering
+	- p.nummerering1, li.nummerering1, div.nummerering1
+--------------------------------------------------------------------------------
+2006-12-01, Jostein Øyri 
+* Modified <ol>: removed 'margin-top: -7 pt'
+* Modified <ul>: removed 'margin-top: -2 pt'
+--------------------------------------------------------------------------------
+2007-03-05, Jostein Øyri 
+Added missing semicolon in <td>.
+--------------------------------------------------------------------------------
+2007-03-29, Jostein Øyri 
+* Modified <h4>: 'margin-top: 11 pt' modified to '24 pt'
+* Modified <h3>: 'margin-top: 14 pt' modified to '24 pt'
+--------------------------------------------------------------------------------
+2007-03-30, Jostein Øyri 
+Modified <li>: added 'margin-top: 6 pt'
+--------------------------------------------------------------------------------
+2007-04-12, Jostein Øyri 
+Modified <a>: removed 'font: 10pt Arial'
+--------------------------------------------------------------------------------
+2007-05-08, Jostein Øyri 
+Added styles:
+- ProcedureComment 
+- UserInput 
+- ScreenName 
+- SubLabel
+--------------------------------------------------------------------------------
+2007-05-29, Jostein Øyri 
+Modified <table>: added 'border-collapse: collapse'
+--------------------------------------------------------------------------------
+2007-08-21, Jostein Øyri 
+Modified <ol>: changed 'margin-left' from 18 to 24 pt
+--------------------------------------------------------------------------------
+2007-11-01, Jostein Øyri 
+*	Renamed styles:
+	- ProcedureComment > stepresult
+	- UserInput > uicontrol
+*	Added style 'info'
+*	Deleted style 'ScreenName'
+--------------------------------------------------------------------------------
+2007-11-08, Jostein Øyri 
+*	Renamed styles:
+	- stepresult > ProcedureNote
+	- uicontrol > ScreenName
+*	Deleted style 'info'
+* Added style 'SubstepInfo'
+--------------------------------------------------------------------------------
+2007-11-26, Jostein Øyri 
+*	Added "border-color" property to "table" element and set colour to light grey (#C0C0C0).
+*	Added "border-color" property to "td" element and set colour to light grey (#C0C0C0).
+--------------------------------------------------------------------------------
+*/
+
+.side   { 
+	width: 100%;
+	}
+
+body 	{
+	font-family: Arial; 
+	font-size: 10 pt;
+	margin-bottom: 60 pt;
+	}
+
+hr	{
+	height: 1 px;
+	color: #808080;
+	}
+	 
+h1  	{ 
+	font-size: 18 pt; 
+	font-weight: bold;
+	margin-top: 24 pt;
+	margin-bottom: 6 pt;
+	}
+	
+h2	{
+	font-size: 13.0 pt;
+	font-weight: bold;
+	margin-top: 24 pt;
+	margin-bottom: 0 pt;
+	}
+
+h3	{	
+	font-size: 110 %;
+	font-weight: bold;
+	margin-top: 24 pt;
+	margin-bottom: 0 pt;
+	}
+
+h4	{ 
+	font-size: 100 %;
+	font-weight: bold;
+	margin-top: 24 pt;
+	margin-bottom: 0 pt;
+	}
+
+h5	{ 
+	font-size: 10.0 pt;
+	font-weight: bold;
+	margin-top: 11 pt;
+	margin-bottom: 0 pt;
+	}
+
+h6	{ 
+	font-size: 8 pt; 
+	line-height: 100 %; 
+	text-align: right; 
+	font-weight: bold;
+	margin-bottom: 0 pt;	 
+	margin-top: 5;     
+	color: #808080;
+	}
+
+tabelltekst  
+	{
+	margin:3.0 pt 4.25 pt; font-size: 10.0 pt
+	}
+
+p.heading3itabell, li.heading3itabell, div.heading3itabell
+	{
+	margin-top: 0 cm;
+	margin-right: 0 pt;
+	margin-left: 0 pt;
+	margin-bottom: 0 pt;
+	font-size: 12.0 pt;
+	font-weight: bold;
+	}
+
+p.sqlheading, li.sqlheading, div.sqlheading
+	{
+	margin:2.0 pt 0 cm; font-size: 10 pt;
+	font-weight: bold
+	}
+
+p.sqlnavnitabell, li.sqlnavnitabell, div.sqlnavnitabell
+	{
+	margin:2.0 pt 0 cm; font-size: 10 pt
+	}
+
+p.innrykk, li.innrykk, div.innrykk
+	{
+	margin-top: 0 cm;
+	margin-right: 0 cm;
+	margin-bottom: 0 cm;
+	margin-left: 15 pt;
+	font-size: 10.0 pt;
+	}
+	
+p.tabelloverskrift, li.tabelloverskrift, div.tabelloverskrift
+	{
+	margin:6.0 pt 4.25 pt; font-size: 10.0 pt;
+	font-weight: bold
+	}
+
+p.tabellfelt, li.tabellfelt, div.tabellfelt
+	{
+	margin:3.0 pt 4.25 pt; font-size: 10.0 pt;
+	font-weight: bold
+	}
+
+p.tabelltekst, li.tabelltekst, div.tabelltekst
+	{
+	margin:3.0 pt 4.25 pt; font-size: 10.0 pt
+	}
+	
+a 	{
+  	margin: 0;
+  	padding: 0;  
+  	text-decoration: none;
+	}
+  
+a:active
+ 	{
+  	color: "#0000FF";
+ 	}
+     
+a:hover
+ 	{  
+  	text-decoration: none;
+ 	}
+
+ul 
+	{
+	margin-left: 12 pt;
+	list-style-type: disc; 
+	text-align: left;
+	}
+
+ol {
+	margin-left: 24 pt;
+	}
+	
+li {
+	margin-top: 6 pt;
+	}
+
+table	{
+	font-size: 100%;
+	border-collapse: collapse;
+	border-color: #C0C0C0;
+	}
+
+th	{
+	font-size: 105%;
+	font-weight: bold;
+	}
+
+td	{
+	font-size: 100%;
+	vertical-align: top;
+	border-color: #C0C0C0;
+	}
+
+.SubLabel
+	{
+	font-weight: bold;
+	}
+
+.ScreenName
+	{
+	font-style: italic;
+	}
+
+.ProcedureNote
+	{
+	font-weight: bold;
+	}
+
+/* Style to get correct spacing above/below comments in procedure substeps */
+.SubstepInfo
+	{
+	margin-top: 6 pt;
+	margin-bottom: 12 pt;
+	}
